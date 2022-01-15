@@ -58,7 +58,7 @@ void         ObjectAllocator::SetDebugState(bool State)
 
 }
     // true=enable, false=disable
-const void* ObjectAllocator::GetFreeList(void) const;   // returns a pointer to the internal free list
-const void* ObjectAllocator::GetPageList(void) const;   // returns a pointer to the internal page list
+const void*  ObjectAllocator::GetFreeList(void) const;   // returns a pointer to the internal free list
+const void*  ObjectAllocator::GetPageList(void) const;   // returns a pointer to the internal page list
 OAConfig     ObjectAllocator::GetConfig(void) const;     // returns the configuration parameters
 OAStats      ObjectAllocator::GetStats(void) const;      // returns the statistics for the allocator
